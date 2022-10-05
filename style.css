@@ -1,0 +1,51 @@
+body{
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.digit{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#btn-container{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.btn{
+    padding: 7px 25px;
+    font-size: 25px;
+    margin: 0px 10px;
+    border: solid violet 1px;
+    color: black;
+    cursor: pointer; 
+}
+
+#start-btn{
+    background-color:aqua;
+}
+
+#stop-btn{
+    background-color: cornflowerblue;
+}
+
+#restart-btn{
+    background-color:brown;
+}
+
+
